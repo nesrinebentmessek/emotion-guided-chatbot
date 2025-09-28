@@ -6,7 +6,7 @@ The project is implemented in three Jupyter notebooks, designed to run in Google
 
 ## Project Overview
 
-- **Emotion Detection**: Fine-tune DistilBERT on the [dair-ai/emotion]([https://huggingface.co/datasets/dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion)) dataset to classify text into 6 emotions (sadness, joy, love, anger, fear, surprise).
+- **Emotion Detection**: Fine-tune DistilBERT on the [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion) dataset to classify text into 6 emotions (sadness, joy, love, anger, fear, surprise).
 - **Chatbot Response Generation**: Fine-tune DialoGPT on the DailyDialog dataset, incorporating emotion tags to make responses contextually aware.
 - **Testing & Inference**: Evaluate the models and run an interactive chat demo where the chatbot responds based on detected emotions.
 
@@ -56,9 +56,10 @@ Future improvements: Use larger models (e.g., DialoGPT-medium), more epochs.
 
 ## Credits
 
-- Datasets: [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion) and [DailyDialog](https://huggingface.co/datasets/daily_dialog).
+- Datasets: [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion) and DailyDialog.
 - Models: Hugging Face's DistilBERT and DialoGPT.
 - Inspired by conversational AI research for emotional intelligence.
+
 
 
 
