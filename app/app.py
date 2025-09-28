@@ -26,8 +26,8 @@ if user_input:
 
 
 for chat in st.session_state.history[::-1]:
-    st.markdown(f"🧑 **You:** {chat['user']}")
-    st.markdown(f"🎭 **Emotion detected:** *{chat['emotion']}*")
-    st.markdown(f"🤖 **Bot:** {chat['bot']}")
+    st.markdown(f"**You:** {chat['user']}")
+    st.markdown(f"**Emotion detected:** *{chat['emotion']}*")
+    st.markdown(f"**Bot:** {chat['bot']}")
     st.markdown("---")
  
