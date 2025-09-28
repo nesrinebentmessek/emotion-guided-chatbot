@@ -27,18 +27,11 @@ Key insights:
 
 The notebooks use the following libraries (install via pip in Colab):
 
-```bash
-pip install torch torchvision torchaudio
-pip install transformers datasets accelerate evaluate
+```python
+!pip install torch torchvision torchaudio
+!pip install transformers accelerate evaluate
+!pip install datasets==3.6.0
 ```
-
-- Python 3.10+
-- Hugging Face Transformers >= 4.30
-- Datasets >= 2.10
-- Accelerate >= 0.20
-- Evaluate >= 0.4
-- NumPy
-
 
 ```python
 from google.colab import drive
@@ -66,4 +59,5 @@ Future improvements: Use larger models (e.g., DialoGPT-medium), more epochs.
 - Datasets: [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion) and [DailyDialog](https://huggingface.co/datasets/daily_dialog).
 - Models: Hugging Face's DistilBERT and DialoGPT.
 - Inspired by conversational AI research for emotional intelligence.
+
 
