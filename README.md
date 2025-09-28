@@ -16,7 +16,7 @@ Key insights:
 - DialoGPT shows a validation loss of ~2.03 after 10 epochs, generating coherent emotion-sensitive responses.
 - Test perplexity for DialoGPT is ~277, indicating room for improvement with more training or larger models.
 
-## Notebooks
+## Notebooks and Scripts
 
 1. **01_Fine-Tuning_DistilBERT.ipynb**: Loads the emotion dataset, preprocesses data, fine-tunes DistilBERT, evaluates on test set (accuracy, F1-score), and saves the model. Includes an interactive prediction demo.
 2. **02_Fine-Tuning_DialoGPT.ipynb**: Loads the DailyDialog dataset, adds emotion tags to dialogues, fine-tunes DialoGPT-small, evaluates on validation set, and saves the model.
@@ -61,6 +61,7 @@ Future improvements: Use larger models (e.g., DialoGPT-medium), more epochs.
 - Datasets: [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion) and DailyDialog.
 - Models: Hugging Face's DistilBERT and DialoGPT.
 - Inspired by conversational AI research for emotional intelligence.
+
 
 
 
