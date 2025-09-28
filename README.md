@@ -17,11 +17,11 @@ Key insights:
 
 ## Notebooks
 
-1. **[01_Fine-Tuning_DistilBERT.ipynb](01_Fine-Tuning_DistilBERT.ipynb)**: Loads the emotion dataset, preprocesses data, fine-tunes DistilBERT, evaluates on test set (accuracy, F1-score), and saves the model. Includes an interactive prediction demo.
+1. **01_Fine-Tuning_DistilBERT.ipynb**: Loads the emotion dataset, preprocesses data, fine-tunes DistilBERT, evaluates on test set (accuracy, F1-score), and saves the model. Includes an interactive prediction demo.
    
-2. **[02_Fine-Tuning_DialoGPT.ipynb](02_Fine-Tuning_DialoGPT.ipynb)**: Loads the DailyDialog dataset, adds emotion tags to dialogues, fine-tunes DialoGPT-small, evaluates on validation set, and saves the model.
+2. **02_Fine-Tuning_DialoGPT.ipynb**: Loads the DailyDialog dataset, adds emotion tags to dialogues, fine-tunes DialoGPT-small, evaluates on validation set, and saves the model.
 
-3. **[03_Testing_and_inference.ipynb](03_Testing_and_inference.ipynb)**: Loads the fine-tuned models, evaluates DialoGPT on the test set (loss and perplexity), and runs an interactive chat session where emotions are detected and responses are generated.
+3. **03_Testing_and_inference.ipynb**: Loads the fine-tuned models, evaluates DialoGPT on the test set (loss and perplexity), and runs an interactive chat session where emotions are detected and responses are generated.
 
 ## Requirements
 
@@ -66,3 +66,4 @@ Future improvements: Use larger models (e.g., DialoGPT-medium), more epochs.
 - Datasets: [dair-ai/emotion](https://huggingface.co/datasets/dair-ai/emotion) and [DailyDialog](https://huggingface.co/datasets/daily_dialog).
 - Models: Hugging Face's DistilBERT and DialoGPT.
 - Inspired by conversational AI research for emotional intelligence.
+
